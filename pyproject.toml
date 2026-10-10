@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smallfry"
+version = "1.0.0"
+description = "Drop files in, get smaller files out. Video, images, audio and PDFs."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "devbnkdr" }]
+requires-python = ">=3.10"
+dependencies = ["PyQt6>=6.5"]
+keywords = ["compress", "video", "image", "audio", "pdf", "ffmpeg", "qt"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Video :: Conversion",
+    "Topic :: Multimedia :: Graphics :: Graphics Conversion",
+]
+
+[project.urls]
+Homepage = "https://github.com/devbnkdr/Smallfry"
+Issues = "https://github.com/devbnkdr/Smallfry/issues"
+
+[project.gui-scripts]
+smallfry = "smallfry:main"
+
+[tool.setuptools]
+py-modules = ["smallfry"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Old files kept for reference, not tracked
+_archive/
+
+# KDE folder settings
+.directory

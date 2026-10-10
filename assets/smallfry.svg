@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect x="6" y="6" width="116" height="116" rx="26" fill="#1F4FD8"/>
+  <!-- a big fish outline, and the small one it turns into -->
+  <path d="M30 52 C42 36 70 36 82 52 L96 40 L96 64 L82 52 C70 68 42 68 30 52 Z"
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" opacity="0.4"/>
+  <path d="M42 84 C49 75 64 75 71 84 L80 77 L80 91 L71 84 C64 93 49 93 42 84 Z"
+        fill="#FFFFFF"/>
+  <circle cx="50" cy="83" r="2.4" fill="#1F4FD8"/>
+  <!-- arrow from big to small -->
+  <path d="M64 63 L64 72" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M59 68 L64 73 L69 68" fill="none" stroke="#FFFFFF" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
